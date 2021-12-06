@@ -33,45 +33,12 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 
 ![alt text](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/Screenshot%20(7).png)
 
-
-
-* com.project.WeatherApp.controller
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Controller.jpg?raw=true)
-
-* com.project.WeatherApp.model
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Model.jpg?raw=true)
-
-* com.project.WeatherApp.service
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/service.jpg?raw=true)
-
-* com.project.WeatherApp.exception
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/exception.jpg?raw=true)
-
-* com.project.WeatherApp.utils
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/utils.jpg?raw=true)
-
-* com.project.WeatherApp.utils.error
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/error.jpg?raw=true)
-
-
 ***
 
 
 *Sequance Diagram (parte 1)*
 
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/History%20Sequence%20Diagram%20part1.jpg?raw=true)
-
-
-*Sequance Diagram (parte 2)*
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Sequence%20Diagram%20part2.jpg?raw=true)
-
+![alt_text](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/work-project%20Sequence%20Diagram.jpg)
 
 ***
 

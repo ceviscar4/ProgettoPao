@@ -567,7 +567,7 @@ Abbiamo implementato i seguenti [test](https://github.com/FedericaParlapiano/Pro
 
 <a name="doc"></a>
 ## Documentazione
-Il codice java è interamente documentato in [Javadoc](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/tree/master/WeatherApp/doc).
+Il codice java è interamente documentato in [Javadoc](https://github.com/StomaticSP8/Progetto_PO_DEC/tree/prova_1/PPO_Dicembre/doc).
 
 
 <a name="autor"></a>

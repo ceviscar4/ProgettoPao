@@ -16,6 +16,7 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 
 ## Possibilità aggiuntive del sistema
 :white_check_mark: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
+
 :white_check_mark: statistiche dei lavori anche con percentuali 
 :white_check_mark: Classe di test
 <a name="install"></a>

@@ -1,8 +1,6 @@
 # Progetto_PO_DEC
  <h1 align="center"> Progetto programmazione ad oggetti fidwork </h1>
 
-<h1 align="center"> WeatherApp </h1>
- 
 <p align="center">
 Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di poter cercare un lavoro potendo filtrare la ricerca con diversi parametri
 </p>

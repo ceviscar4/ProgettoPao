@@ -53,9 +53,9 @@ Queste sono le chiamate possibili:
 
 N° | Tipo | Rotta | Descrizione
 ----- | ------------ | -------------------- | ----------------------
-[1](#1) | ` GET ` | `/Sug` | *restituisce un JSONArray contenente le informazioni attuali relative alla visibilità e le previsioni relative per i successivi cinque giorni.*
-[2](#2) | ` POST ` | `/Filter` | *restituisce il path in cui è stato salvato il file contenente le informazioni attuali relative alla visibilità aggiornate ogni ora.*
-[3](#3) | ` POST ` | `/Static` | *restituisce le statistiche sulla visibilità con cadenza giornaliera, settimanale o trisettimanale sulla base di uno storico che contiene le informazioni sulla visibilità per 21 giorni (solo alcune città sono ammesse).*
+[1](#1) | ` GET ` | `/Sug` | *Restituisce un vettore di città con 5 città consigliate da parte del sistema .*
+[2](#2) | ` POST ` | `/Filter` | *Questa rotta applica i filtri che abbiamo creato e restituisce un json con tutti i lavori filtrati in base ai dati inseriti nel body di postman.*
+[3](#3) | ` POST ` | `/Static` | *Questa rotta effettua le statistiche che possono essere filtrate e restituisce un oggetto chiamato parametri_statistica in formato json contenete percentuale lavori in remoto e non top 5 lavori e i lavori più richiesti .*
 
 
 * ## Come può l'utente effettuare richieste? Cosa riceverà in risposta? 

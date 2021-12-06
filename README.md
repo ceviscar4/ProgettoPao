@@ -7,7 +7,7 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 
 * [Introduzione](#intro)
 * [Diagrammi uml](#uml)
-
+* [rotte](#rotte)
 <a name="intro"></a>
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
@@ -45,18 +45,17 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 
 <a name="rotte"></a>
 ## Rotte
-Le richieste che l'utente può effettuare tramite Postman devono essere all'indirizzo
+Le chiamate verranno gestite dalla porta:
 ```
 localhost:8080
 ```
-Le rotte definite sono le seguenti:
+Queste sono le chiamate possibili:
 
 N° | Tipo | Rotta | Descrizione
 ----- | ------------ | -------------------- | ----------------------
-[1](#1) | ` GET ` | `/visibility?cityName=Ancona` | *restituisce un JSONArray contenente le informazioni attuali relative alla visibilità e le previsioni relative per i successivi cinque giorni.*
-[2](#2) | ` GET ` | `/saveEveryHour?cityName=Fermo` | *restituisce il path in cui è stato salvato il file contenente le informazioni attuali relative alla visibilità aggiornate ogni ora.*
-[3](#3) | ` POST ` | `/statsHistory` | *restituisce le statistiche sulla visibilità con cadenza giornaliera, settimanale o trisettimanale sulla base di uno storico che contiene le informazioni sulla visibilità per 21 giorni (solo alcune città sono ammesse).*
-[4](#4) | ` POST ` | `/errors` | *consente di effettuare statistiche sulle previsioni azzeccate, con periodicità che varia da 1 a 5 giorni. Inoltre, in base alla richiesta dell'utente, l'applicazione filtrerà le città che rispettano le condizioni espresse circa la soglia di errore.*
+[1](#1) | ` GET ` | `/Sug` | *restituisce un JSONArray contenente le informazioni attuali relative alla visibilità e le previsioni relative per i successivi cinque giorni.*
+[2](#2) | ` POST ` | `/Filter` | *restituisce il path in cui è stato salvato il file contenente le informazioni attuali relative alla visibilità aggiornate ogni ora.*
+[3](#3) | ` POST ` | `/Static` | *restituisce le statistiche sulla visibilità con cadenza giornaliera, settimanale o trisettimanale sulla base di uno storico che contiene le informazioni sulla visibilità per 21 giorni (solo alcune città sono ammesse).*
 
 
 * ## Come può l'utente effettuare richieste? Cosa riceverà in risposta? 

@@ -8,7 +8,6 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 </p>
 
 * [Introduzione](#intro)
-* 
 * [Diagrammi uml](#uml)
 
 <a name="intro"></a>
@@ -28,7 +27,7 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 
 *Use Case Diagram*
 
-![alt text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Progetto%20Use%20Case%20Diagram.jpg?raw=true)
+![alt text](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/Screenshot%20(6).png)
 
 ***
 

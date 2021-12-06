@@ -12,9 +12,7 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 
 <a name="intro"></a>
 ## Introduzione
-
-Il programma WeatherApp offre diverse possibilità. Si concetra principalmente sulle previsioni della visibilità di una città e le relative statistiche, ma offre anche il confronto tra più città per conoscere l'affidabilità delle previsioni. Inoltre è possibile conoscere anche le previsioni sulla temperatura massima, minima e percepita e di farne statistiche.
-Non appena sarà partita, l'applicazione inizierà a raccogliere i dati sulla visibilità di 6 città (Ancona, Campobasso, Macerata, Roma, San Martino in Pensilis e Tolentino) e li salverà su un file ogni ora.
+Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
 
 ## Possibilità aggiuntive del sistema
 🟡_check_mark: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)

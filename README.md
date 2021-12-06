@@ -4,12 +4,12 @@
 <h1 align="center"> WeatherApp </h1>
  
 <p align="center">
-La nostra applicazione permette di avere previsioni principalmente sulla visibilità di una città ma anche su temperatura massima, minima e percepita. Inoltre sarà possibile generare statistiche e filtrarle in base ai giorni di predizione.
+Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di poter cercare un lavoro potendo filtrare la ricerca con diversi parametri
 </p>
 
 ## **Scaletta dei contenuti**
 
-* [Introduzione](#intro)
+* [](#intro)
 * [Installazione](#install)
 * [Configurazione](#config)
 * [Diagrammi UML](#uml)

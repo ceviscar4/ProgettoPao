@@ -7,8 +7,8 @@
 Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di poter cercare un lavoro potendo filtrare la ricerca con diversi parametri
 </p>
 
-[Introduzione](#intro)
-[Diagrammi uml](#uml)
+*[Introduzione](#intro)
+*[Diagrammi uml](#uml)
 
 <a name="intro"></a>
 ## Introduzione

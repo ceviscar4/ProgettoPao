@@ -15,9 +15,9 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
 
 ## Possibilità aggiuntive del sistema
-🟡_check_mark: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
-:🟡_check_mark: statistiche dei lavori anche con percentuali 
-:🟡_check_mark: Classe di test
+*🟡_check_mark: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
+*🟡_check_mark: statistiche dei lavori anche con percentuali 
+*🟡_check_mark: Classe di test
 <a name="install"></a>
 
 ## Installazione

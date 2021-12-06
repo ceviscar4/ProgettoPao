@@ -31,7 +31,7 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 
 *Class Diagram*
 
-![alt text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Progetto%20Class%20Diagram.jpg?raw=true)
+![alt text](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/Screenshot%20(7).png)
 
 
 

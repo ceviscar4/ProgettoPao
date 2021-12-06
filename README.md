@@ -7,18 +7,8 @@
 Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di poter cercare un lavoro potendo filtrare la ricerca con diversi parametri
 </p>
 
-## **Scaletta dei contenuti**
+[Introduzione](#intro)
 
-* [](#intro)
-* [Installazione](#install)
-* [Configurazione](#config)
-* [Diagrammi UML](#uml)
-* [Rotte](#rotte)
-* [Rotte Aggiuntive](#rotteaggiuntive)
-* [Test](#test)
-* [Documentazione](#doc)
-* [Struttura del progetto](#struttura)
-* [Autori](#autor)
 
 <a name="intro"></a>
 ## Introduzione
@@ -26,20 +16,14 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 Il programma WeatherApp offre diverse possibilità. Si concetra principalmente sulle previsioni della visibilità di una città e le relative statistiche, ma offre anche il confronto tra più città per conoscere l'affidabilità delle previsioni. Inoltre è possibile conoscere anche le previsioni sulla temperatura massima, minima e percepita e di farne statistiche.
 Non appena sarà partita, l'applicazione inizierà a raccogliere i dati sulla visibilità di 6 città (Ancona, Campobasso, Macerata, Roma, San Martino in Pensilis e Tolentino) e li salverà su un file ogni ora.
 
-
+## Possibilità aggiuntive del sistema
+🟡_check_mark: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
+🟡_check_mark: statistiche dei lavori anche con percentuali 
+🟡_check_mark: Classe di test
 <a name="install"></a>
-## Installazione
-WeatherApp è installabile dal Prompt dei Comandi digitando:  
-```
-git clone https://github.com/FedericaParlapiano/WeatherProva 
-```
-<a name="config"></a>
-## Configurazione
-Per accedere al nostro servizio è necessario modificare la variabile ```api_key``` in [ServiceImpl.java](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/WeatherApp/src/main/java/com/project/WeatherApp/service/ServiceImpl.java).
-Si può ottenere una API key gratuitamente accedendo alla pagina di [OpenWeather](https://openweathermap.org/forecast5#name5).
-Infine basterà avviare il web-server eseguendo [WeatherAppApplication.java](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/WeatherApp/src/main/java/com/project/WeatherApp/WeatherAppApplication.java).
 
-<a name="uml"></a>
+## Installazione
+
 ## Diagrammi UML
 
 *Use Case Diagram*

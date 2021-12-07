@@ -15,9 +15,9 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 ## Possibilità aggiuntive del sistema
 🟡: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
 
-🟡_check_mark: statistiche dei lavori anche con percentuali 
+🟡: statistiche dei lavori anche con percentuali 
 
-🟡_check_mark: Classe di test
+🟡: Classe di test
 
 
 <a name="uml"></a>

@@ -115,7 +115,7 @@ Inserire il numero di citta da trovare all'interno dell body con la seguente sin
    ```
 <a name="plus"></a>
 ## Possibilità aggiuntive del sistema
-🟡Il programma svolge tutte le funzioni che ci sono state assegnate, solamente la top 5 lavori non siamo riusciti a svolgere per rimediare a tale mancanza abbiamo aggiunto più filtri alle statistiche (remote,role,keywords), le statistiche vengono fatte su un massimo di 3 città, inoltre vengono visualizzate anche le percentuali di lavoro in remoto e non.
+🟡Il programma svolge tutte le funzioni che ci sono state assegnate, solamente la top 5 lavori non siamo riusciti a svolgere ma per rimediare a tale mancanza abbiamo aggiunto più filtri alle statistiche (remote,role,keywords), le statistiche vengono fatte su un massimo di 3 città, inoltre vengono visualizzate anche le percentuali di lavoro in remoto e non.
 
 🟡Per i risultati filtrati abbiamo aggiunto la possibilità di filtraggio con(data,keywords).
 

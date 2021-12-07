@@ -9,6 +9,9 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 * [Diagrammi uml](#uml)
 * [rotte](#rotte)
 * [/Sug](#/Sug)
+* [/Filter](#/Filter)
+* [/Static](/Static)
+* [Eccezzioni](Eccezzioni)
 <a name="intro"></a>
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  

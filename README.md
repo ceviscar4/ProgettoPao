@@ -55,7 +55,7 @@ N° | Tipo | Rotta | Descrizione
 ----- | ------------ | -------------------- | ----------------------
 [1](#1) | ` GET ` | `/Sug` | *Restituisce un vettore di città con 5 città consigliate da parte del sistema .*
 [2](#2) | ` POST ` | `/Filter` | *Questa rotta applica i filtri che abbiamo creato e restituisce un json con tutti i lavori filtrati in base ai dati inseriti nel body di postman.*
-[3](#3) | ` POST ` | `/Static` | *Questa rotta effettua le statistiche che possono essere filtrate, restituisce un oggetto chiamato parametri_statistica in formato json contenete percentuale lavori in remoto e non, top 5 lavori e i lavori più richiesti .*
+[3](#3) | ` POST ` | `/Static` | *Questa rotta effettua le statistiche che possono essere filtrate, restituisce un oggetto chiamato parametri_statistica in formato json contenete percentuale lavori in remoto e non, altri linguaggi di programmazione oltre java .*
 
 
 * ## Come può l'utente effettuare richieste? Cosa riceverà in risposta? 

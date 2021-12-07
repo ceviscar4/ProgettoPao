@@ -101,7 +101,7 @@ La terza rotta è di tipo POST e il body viene scritto allo stesso modo del /Fil
 ![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(16).png)
 
 <a name=Eccezzioni></a>
-Questa rotta può generare le seguenti ***eccezioni***: 
+## Eccezzioni 
 
    * Nel caso in cui l'utente dimentichi di inserire il nome della città viene generata un'eccezione del tipo ***EmptyStringException*** che restituisce un messaggio di questo tipo:
    

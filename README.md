@@ -11,7 +11,8 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 * [/Sug](#/Sug)
 * [/Filter](#/Filter)
 * [/Static](#/Static)
-* [Eccezzioni](#Eccezzioni)
+* [Eccezzioni](#Eccezioni)
+* [Possibilità aggiuntive del sistema](#plus)
 <a name="intro"></a>
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
@@ -22,6 +23,10 @@ Il nostro progetto permette all'utente di ricercare lavori attraverso il filtrag
 🟡: statistiche dei lavori anche con percentuali 
 
 🟡: Classe di test
+
+🟡
+
+🟡
 
 
 <a name="uml"></a>
@@ -103,28 +108,26 @@ La terza rotta è di tipo POST e il body viene scritto allo stesso modo del /Fil
 
 ![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(16).png)
 
-<a name=Eccezzioni></a>
-## Eccezzioni 
+<a name=Eccezioni></a>
+## Eccezioni 
 
-   * Nel caso in cui l'utente dimentichi di inserire il nome della città viene generata un'eccezione del tipo ***EmptyStringException*** che restituisce un messaggio di questo tipo:
+   * In caso di mancato inserimento del numero_citta nel body per la seconda e terza rotta verrà lanciata un eccezione ***Exception_numero_citta*** e restituisce un messaggio:
    
 ```
-Hai dimenticato di inserire la città...
+Inserire il numero di citta da trovare all'interno dell body con la seguente sintassi: numero_citta=
      
 ```
 
-  * Nel caso in cui l'utente inserisca una città non ammessa viene generata un'eccezione del tipo ***CityNotFoundException*** che restituisce un messaggio di questo tipo:
+  * In caso di mancato inserimento di testo nel body nella seconda e terza rotta verrà lanciata un eccezione ***input_exception*** e restituisce un messaggio:
 
    ```
-    Tolentì non è presente nello storico. Puoi scegliere tra: "Ancona", "Campobasso", "Macerata", "Roma", "San Martino in Pensilis" e "Tolentino".
+    il body e vuoto.
    ```
-
-   * Invece se viene inserito un periodo diverso da quelli sopra citati viene generata un'eccezione del tipo ***WrongPeriodException*** che restituisce un messaggio di questo tipo:
-
-   ```
-    mensile non è permessa. Devi inserire una stringa tra "giornaliera","settimanale" e "trisettimanale".
-   ```
-
+<a name="plus"></a>
+## Possibilità aggiuntive del sistema
+🟡Il programma svolge tutte le funzioni che ci sono state assegnate, solamente la top 5 lavori non siamo riusciti a svolgere per rimediare a tale mancanza abbiamo aggiunto più filtri alle statistiche (remote,role,keywords), le statistiche vengono fatte su un massimo di 3 città, inoltre vengono visualizzate anche le percentuali di lavoro in remoto e non.
+🟡Per i risultati filtrati abbiamo aggiunto la possibilità di filtraggio con(data,keywords).
+🟡Il nostro programma non si limita solamente a trovare i lavori in linguaggio java ma l'utente potrà cercare qualsiasi tipo di lavoro con i filtri che desidera 
 
 <a name="test"></a>
 ## Test

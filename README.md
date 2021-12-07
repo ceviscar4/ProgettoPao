@@ -85,9 +85,10 @@ ESEMPIO BODY
 "location3":"california",    [esempio terza città da filtrare]
 "numero_citta":"3",          [numero di città da filtrare, se il numero di città non è uguale a quello delle locazioni inserite verrà lanciata un eccezione] 
 "remote":"false",            [filtra per tutte le locazioni inserite il parametro remote:false]
-"keywords":"python"          [filtra per tutte le locazioni il linguaggio python]   
+"keywords":"python"          [filtra per tutte le locazioni il linguaggio python] 
+}
 ```
-
+Il risultato sarà un vettore di JSONObject contenente tutti i risultati filtrati per (remote,keywords) per la prima locazione(location), per la seconda locazione(location2) e per la terza locazione(location3).
 ![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(11).png)
 
 

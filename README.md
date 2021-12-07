@@ -13,6 +13,7 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 * [/Static](#/Static)
 * [Eccezzioni](#Eccezioni)
 * [Possibilità aggiuntive del sistema](#plus)
+* [Test](#Test)
 * [Documentazione javadoc](#documentazione)
 <a name="intro"></a>
 ## Introduzione
@@ -120,7 +121,7 @@ Inserire il numero di citta da trovare all'interno dell body con la seguente sin
 
 🟡Il nostro programma non si limita solamente a trovare i lavori in linguaggio java ma l'utente potrà cercare qualsiasi tipo di lavoro con i filtri che desidera 
 
-<a name="test"></a>
+<a name="Test"></a>
 ## Test
 
 Abbiamo implementato anche una classe di test che testa l'eccezione ***input_exception***

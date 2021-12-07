@@ -17,18 +17,6 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
 
-## Possibilità aggiuntive del sistema
-🟡: possibilità di filtraggio delle statistiche e dei lavori per tutte le variabili(data,location,ruolo,tipo...)
-
-🟡: statistiche dei lavori anche con percentuali 
-
-🟡: Classe di test
-
-🟡
-
-🟡
-
-
 <a name="uml"></a>
 ## Diagrammi UML
 
@@ -126,7 +114,9 @@ Inserire il numero di citta da trovare all'interno dell body con la seguente sin
 <a name="plus"></a>
 ## Possibilità aggiuntive del sistema
 🟡Il programma svolge tutte le funzioni che ci sono state assegnate, solamente la top 5 lavori non siamo riusciti a svolgere per rimediare a tale mancanza abbiamo aggiunto più filtri alle statistiche (remote,role,keywords), le statistiche vengono fatte su un massimo di 3 città, inoltre vengono visualizzate anche le percentuali di lavoro in remoto e non.
+
 🟡Per i risultati filtrati abbiamo aggiunto la possibilità di filtraggio con(data,keywords).
+
 🟡Il nostro programma non si limita solamente a trovare i lavori in linguaggio java ma l'utente potrà cercare qualsiasi tipo di lavoro con i filtri che desidera 
 
 <a name="test"></a>

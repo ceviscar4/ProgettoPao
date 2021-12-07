@@ -1,5 +1,5 @@
 # Progetto_PO_DEC
- <h1 align="center"> Progetto programmazione ad oggetti fidwork </h1>
+ <h1 align="center"> Progetto programmazione ad oggetti findwork </h1>
 
 <p align="center">
 Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di poter cercare un lavoro potendo filtrare la ricerca con diversi parametri
@@ -13,6 +13,7 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 * [/Static](#/Static)
 * [Eccezzioni](#Eccezioni)
 * [Possibilità aggiuntive del sistema](#plus)
+* [Documentazione javadoc](#documentazione)
 <a name="intro"></a>
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
@@ -122,15 +123,16 @@ Inserire il numero di citta da trovare all'interno dell body con la seguente sin
 <a name="test"></a>
 ## Test
 
-Abbiamo implementato i seguenti [test](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/tree/master/WeatherApp/src/test/java/com/project/WeatherApp) per verificare il corretto funzionamento di alcuni metodi e alcune eccezioni
-
-![alt_text](https://github.com/FedericaParlapiano/Progetto-Programmazione-Ad-Oggetti/blob/master/UML/Test.jpg)
+Abbiamo implementato anche una classe di test che testa l'eccezione ***input_exception***
 
 
+![alt_text](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/PPO_Dicembre/src/test/java/com/example/PPO_Dicembre/testclass.java)
 
-<a name="doc"></a>
+
+
+<a name="documentazione"></a>
 ## Documentazione
-Il codice java è interamente documentato in [Javadoc](https://github.com/StomaticSP8/Progetto_PO_DEC/tree/prova_1/PPO_Dicembre/doc).
+La documentazione javadoc è presente in questo link [Javadoc](https://github.com/StomaticSP8/Progetto_PO_DEC/tree/prova_1/PPO_Dicembre/doc).
 
 
 <a name="autor"></a>

@@ -88,7 +88,7 @@ ESEMPIO BODY
 "keywords":"python"          [filtra per tutte le locazioni il linguaggio python] 
 }
 ```
-Il risultato sarà un vettore di JSONObject contenente tutti i risultati filtrati per (remote,keywords) per la prima locazione(location), per la seconda locazione(location2) e per la terza locazione(location3).
+Il risultato sarà un vettore di JSONObject contenente tutti i risultati filtrati per (remote,keywords) per la prima locazione(location), per la seconda locazione(location2) e per la terza locazione(location3)..
 ![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(11).png)
 
 

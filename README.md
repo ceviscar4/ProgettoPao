@@ -8,6 +8,7 @@ Questo progetto ha lo scopo di creare un sistema che permetta ad un utente di po
 * [Introduzione](#intro)
 * [Diagrammi uml](#uml)
 * [rotte](#rotte)
+* [/Sug](#/Sug)
 <a name="intro"></a>
 ## Introduzione
 Il nostro progetto permette all'utente di ricercare lavori attraverso il filtraggio di alcuni parametri come (ruolo,data,location,tipo,linguaggio ecc...),l'utente inoltre potrà visualizzare delle statistiche come (percentuale lavoro remoto e non ,quanti ruoli sono disponibili per quel linguaggio ecc...) riguardanti ad esempio il linguaggio scelto, il sistema infine ha la possibilità di suggerire all'utente 5 città.  
@@ -65,25 +66,34 @@ Basta avviare il programma come applicazione SpringBoot, assicurarsi di avere Po
 Innanzitutto non bisogna confondere le richieste di tipo GET con quelle di tipo POST, altrimenti riceverà un messaggio di errore.
 Ora illustreremo alcuni esempi su cosa dare in richiesta e cosa dovete aspettarvi in risposta.
 
-<a name="1"></a>
-## 1.   /visibility?cityName=
+<a name="/Sug"></a>
+## 1.   /Sug
 
-La prima rotta restituisce un JSONArray di questo tipo, cioè contenente i JSONObject che riportano le informazioni sulla visibilità e la data e l'ora a cui le previsioni si riferiscono. Potete inserire qualsiasi città vogliate (purché esista e sia scritta correttamente, altrimenti riceverete un messaggio di errore).
+La prima rotta è di tipo GET /Sug suggerisce all'utente 5 città americane che vengono restituite come un vettore di citta 
 
-![alt_text](https://github.com/FedericaParlapiano/WeatherProva/blob/master/Immagini/postman.png?raw=true)
+![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(9).png)
 
-<a name=2></a>
-## 2.   /saveEveryHour?cityName=
+<a name=/Filter></a>
+## 2.   /Filter
 
-La seconda rotta vi permette di salvare le informazioni attuali sulla visibilità della città che volete. Il programma creerà un file col nome "CityNameHourlyReport.txt" che si aggiornerà ogni ora. Se è già presente un file con lo stesso nome, il programma lo aprirà e, senza eliminare ciò che è presente, inizierà a scrivere le previsioni. Alla fine riceverete un messaggio di questo tipo:
-
+La seconda rotta è di tipo POST /Filter permette il filtraggio dei seguenti parametri (location,location2,location3,role,data,employement_type,remote,keywords), all'interno del body su postman l'utente dovrà inserire anche il numero_citta tale numero va da 1 a 3, quindi l'utente può filtrare più location e filtrarli per tutti i parametri elencati in precedenza.
+ESEMPIO BODY
 ```
-Il file è stato salvato in  C:\Users\feder\eclipse-workspace\Progetto\Progetto-Programmazione-Ad-Oggetti\WeatherApp/FermoHourlyReport.txt
-
+{
+"location":"london",        [esempio prima città da filtrare]
+"location2":"india",         [esempio seconda città da filtrare]
+"location3":"california",    [esempio terza città da filtrare]
+"numero_citta":"3",          [numero di città da filtrare, se il numero di città non è uguale a quello delle locazioni inserite verrà lanciata un eccezione] 
+"remote":"false",            [filtra per tutte le locazioni inserite il parametro remote:false]
+"keywords":"python"          [filtra per tutte le locazioni il linguaggio python]   
 ```
 
-<a name=3></a>
-## 3.    /statsHistory
+![alt_text](https://github.com/ceviscar4/ProgettoPao/blob/main/Screenshot%20(11).png)
+
+
+
+<a name=/Static></a>
+## 3.    /Static
 
 La terza rotta è di tipo POST e richiede un body di questo tipo:
 

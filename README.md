@@ -126,7 +126,7 @@ Inserire il numero di citta da trovare all'interno dell body con la seguente sin
 Abbiamo implementato anche una classe di test che testa l'eccezione ***input_exception***
 
 
-![Test](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/PPO_Dicembre/src/test/java/com/example/PPO_Dicembre/testclass.java)
+[Test](https://github.com/StomaticSP8/Progetto_PO_DEC/blob/prova_1/PPO_Dicembre/src/test/java/com/example/PPO_Dicembre/testclass.java)
 
 
 
